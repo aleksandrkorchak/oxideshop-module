@@ -1,0 +1,24 @@
+{
+  "name": "koralex/goodsoncredit",
+  "description": "Makes it possible to buy goods in installments",
+  "version": "1.0",
+  "type": "oxideshop-module",
+  "homepage": "http://localhost.local/",
+  "authors": [
+    {
+      "name": "koralex",
+      "email": "newuser841@gmail.com",
+      "homepage": "http://localhost.local/"
+    }
+  ],
+  "extra": {
+    "oxideshop": {
+      "target-directory": "koralex/goodsoncredit"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Koralex\\GoodsOnCredit\\": "../../../source/modules/koralex/goodsoncredit/"
+    }
+  }
+}

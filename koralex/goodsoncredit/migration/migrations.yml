@@ -1,0 +1,3 @@
+migrations_namespace: Koralex\GoodsOnCredit\Migrations
+table_name: oxmigrations_klxgoodsoncredit
+migrations_directory: data
